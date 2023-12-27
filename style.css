@@ -1,0 +1,38 @@
+body{
+ font-family:Arial, sans-serif;
+ margin:0;
+ padding:0;
+}
+nav{
+ background-color:#9985a3;
+ overflow:hidden;
+}
+nav a{
+ float:left;
+ display:block;
+ color: #e9e2e9;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration:none;
+  transition: background-color 0.3 ease;
+}
+nav a:hover{
+ background-color:#e9e2e9 ;
+ color: #9985a3;
+}
+nav a.active{
+ background-color: #c88ce3;
+ color:#e9e2e9;
+}
+h1{
+  color:#c88ce3;
+  text-align: center;
+}
+h3{
+  color: #9985a3;
+  text-align: center;
+}
+p{
+  color: #9985a3;
+  text-align: center;
+}
